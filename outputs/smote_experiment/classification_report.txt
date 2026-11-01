@@ -1,0 +1,21 @@
+Baseline Random Forest
+======================
+              precision    recall  f1-score   support
+
+          no       0.94      0.90      0.92      7985
+         yes       0.43      0.53      0.47      1058
+
+    accuracy                           0.86      9043
+   macro avg       0.68      0.72      0.70      9043
+weighted avg       0.88      0.86      0.87      9043
+
+SMOTENC Random Forest
+=====================
+              precision    recall  f1-score   support
+
+          no       0.92      0.94      0.93      7985
+         yes       0.46      0.40      0.43      1058
+
+    accuracy                           0.88      9043
+   macro avg       0.69      0.67      0.68      9043
+weighted avg       0.87      0.88      0.87      9043

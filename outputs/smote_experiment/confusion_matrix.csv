@@ -1,0 +1,5 @@
+model,actual,predicted_no,predicted_yes
+baseline,no,7226,759
+baseline,yes,496,562
+smote,no,7485,500
+smote,yes,630,428

@@ -1,0 +1,47 @@
+{
+  "project": "Bank Marketing Subscription Prediction",
+  "dataset_rows": 45211,
+  "train_rows": 36168,
+  "test_rows": 9043,
+  "model": "RandomForestClassifier",
+  "positive_class": "yes",
+  "features_used": [
+    "age",
+    "job",
+    "marital",
+    "education",
+    "default",
+    "balance",
+    "housing",
+    "loan",
+    "contact",
+    "day",
+    "month",
+    "campaign",
+    "pdays",
+    "previous",
+    "poutcome"
+  ],
+  "metrics": {
+    "accuracy": 0.8612186221386708,
+    "precision": 0.4254352763058289,
+    "recall": 0.5311909262759924,
+    "f1_score": 0.4724674232870954
+  },
+  "confusion_matrix_labels": [
+    "no",
+    "yes"
+  ],
+  "confusion_matrix": [
+    [
+      7226,
+      759
+    ],
+    [
+      496,
+      562
+    ]
+  ],
+  "classification_report": "              precision    recall  f1-score   support\n\n          no       0.94      0.90      0.92      7985\n         yes       0.43      0.53      0.47      1058\n\n    accuracy                           0.86      9043\n   macro avg       0.68      0.72      0.70      9043\nweighted avg       0.88      0.86      0.87      9043\n",
+  "note": "Metrics were computed from actual held-out test predictions when this script ran."
+}

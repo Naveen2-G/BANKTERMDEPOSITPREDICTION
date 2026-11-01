@@ -1,0 +1,2 @@
+Copy your downloaded UCI bank-full.csv into this folder. It must be semicolon-separated. Official source: https://archive.ics.uci.edu/dataset/222/bank+marketing
+The dataset is not bundled in this ZIP because it was not uploaded into this conversation. The project scripts require data/bank-full.csv before import.
